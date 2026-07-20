@@ -4,7 +4,7 @@ const router = express.Router();
 
 const BeneficioController = require("../controller/BeneficioController");
 
-router.post("/beneficio", BeneficioController.cadastrar);
-router.get("/beneficio", BeneficioController.listar);
+router.post("/beneficios", BeneficioController.cadastrar);
+router.get("/beneficios", BeneficioController.listar);
 
 module.exports = router;
